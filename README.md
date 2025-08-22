@@ -1,3 +1,5 @@
+This is a Next.js based e-commerce app where users can browse products, view details, search, filter, and sort items. Authentication is implemented with Google login.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
