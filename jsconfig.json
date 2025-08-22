@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",   // ✅ project root, not "src"
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   }
 }
