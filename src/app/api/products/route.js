@@ -1,4 +1,4 @@
-import clientPromise from "../../../lib/mongodb";
+import clientPromise from "../../../lib/dbConnect";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../../../auth"; 
 

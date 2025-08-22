@@ -124,7 +124,7 @@ export default function ProductCarousel() {
 
   return (
     <section className="w-11/12 mx-auto px-6 py-16">
-      <h2 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-gray-100">
+      <h2 className="text-3xl font-bold text-center mb-8 text-blue-400">
         Featured Products
       </h2>
 

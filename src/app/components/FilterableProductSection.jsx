@@ -79,7 +79,7 @@ export default function FilterableProductSection() {
 
   return (
     <section className="w-11/12 mx-auto px-6 py-16">
-      <h2 className="text-3xl font-bold text-center mb-6 text-gray-900 dark:text-gray-100">Explore Products</h2>
+      <h2 className="text-3xl font-bold text-center mb-6 text-blue-500">Explore Products</h2>
 
       {/* Filters */}
       <div className="flex flex-wrap justify-center gap-4 mb-6">
@@ -99,7 +99,7 @@ export default function FilterableProductSection() {
         <input
           type="text"
           placeholder="Search products..."
-          className="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-600"
+          className="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-600"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
